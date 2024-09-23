@@ -1,7 +1,9 @@
 ### CopyFilesToTargetPath
 
-  This program was made because oftentimes while modding, I found myself in a situation where I needed to copy 1 or 2 files repeatedly into 10+ unique directories and having to do it often made me want to (unalive) myself.
-  
+  This program was made because oftentimes while modding, I found myself in a situation where I needed to copy 1 or 2 files repeatedly into 10+ unique directories and having to do it often made me want to (unalive) myself.  
+
+####   Please note, this program requires dotnet 8 to run!
+
   # Usage
 
 Drag and drop a file into the program, the following operations will be done:  
