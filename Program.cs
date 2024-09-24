@@ -37,6 +37,8 @@ namespace CopyFilesToTargetPath
                 return;
             }
 
+            filesList.RemoveAll(file => Path.GetFileName(file).Equals("target_paths.txt", StringComparison.OrdinalIgnoreCase));
+
             List<string> targetPaths = new List<string>(File.ReadAllLines(targetPathsFile));
 
 
